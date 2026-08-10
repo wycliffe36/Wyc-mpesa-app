@@ -1,0 +1,13 @@
+[app]
+title = WYC MPESA
+package.name = wycmpesa
+package.domain = org.wyc
+source.dir =.
+source.include_exts = py
+version = 6.2
+requirements = python3,kivy
+orientation = portrait
+fullscreen = 0
+android.api = 33
+android.minapi = 21
+android.archs = arm64-v8a
