@@ -1,20 +1,18 @@
+
 [app]
 title = WYC MPESA
 package.name = wycmpesa
-package.domain = org.wyc
+package.domain = org.wycliffe
 source.dir =.
-source.include_exts = py,png,jpg,kv,atlas
-version = 6.2
+source.include_exts = py,kv,png,jpg
+version = 0.1
 requirements = python3,kivy
 orientation = portrait
-android.arch = arm64-v8a
+fullscreen = 0
 android.api = 31
 android.minapi = 21
-android.sdk_path = 
-android.ndk_path = 
-android.permissions = INTERNET
+android.arch = arm64-v8a
 android.logcat_filters = *:S python:D
-android.debug_build = True
 
 [buildozer]
 log_level = 2
